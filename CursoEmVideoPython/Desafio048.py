@@ -1,6 +1,5 @@
 # Programa que calcula a soma de todos os
 # numeros impares e multiplos de 3 em um intervalo
-
 i = int(input('Digite o inicio: '))
 f = int(input('Digite o fim: '))
 s = 0
