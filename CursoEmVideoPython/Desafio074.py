@@ -10,4 +10,6 @@ for i in aleatorios:
     if i < menor:
         menor = i
 print(f'O \033[31mmenor\033[m valor da tupla é: \033[31m{menor}\033[m')
+#print(f'O menor valor da tupla é: {min(aleatorios)}')
 print(f'O \033[34mmaior\033[m valor da tupla é: \033[34m{maior}\033[m')
+#print(f'O maior valor da tupla é: {max(aleatorios)}')
