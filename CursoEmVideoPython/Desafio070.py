@@ -1,12 +1,10 @@
 # Ler produtos
-
 print('-='*15)
 print(f'{" Loja do Barato ":=^30}')
 print('-='*15)
 caros = total = 0
 primeira = True
 while True:
-    c = ' '
     nome = str(input('Nome do produto: ')).strip()
     preco = float(input('Preço: R$'))
     total += preco
@@ -19,6 +17,7 @@ while True:
     elif preco < menor:
         menor = preco
         nomeMenor = nome
+    c = ' '
     while c not in 'SN':
         c = str(input('Quer continuar? [S/N] ')).strip().upper()[0]
     print('-='*15)
