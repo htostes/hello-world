@@ -1,7 +1,6 @@
 todos = list()
 while True:
-    num = int(input('Digite o numero: '))
-    todos.append(num)
+    todos.append(int(input('Digite o numero: ')))
     c = ' '
     while c not in 'SN':
         c = str(input('Deseja continuar? [S/N] ')).strip().upper()
