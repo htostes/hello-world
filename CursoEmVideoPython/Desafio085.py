@@ -1,4 +1,4 @@
-numeros = [[], []] # 0 sao pares, 1 são impares
+numeros = [[], []]  # 0 sao pares, 1 são impares
 for i in range(0, 7):
     num = int(input('Digite o numero: '))
     if num % 2 == 0:
